@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/media.css">
+
+    <title>Lorem.</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <a class="logo">Lorem.</a>
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <li class="list__item">
+                            <a href="#">Продукты</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#">О нас</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__item">
+                        <a class="breadcrumbs__item-link" href="#">
+                            <p>Главная</p>
+                        </a>
+                    </li>
+                    <li class="breadcrumbs__item">
+                        <p>Форма</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="wrapper">
+            <div class="triangle"></div>
+            <div class="section__wrapper">
+                <h2 class="section__title">Шаг 1.</h2>
+                <form class="section__form" action="#">
+
+                    <div class="form__firt-column">
+                        <div class="form__elem">
+                            <label for="country">Выберите страну</label>
+                            <select class=" form__countries" name="country" id="country">
+                            </select>
+                        </div>
+                        <div class="form__data">
+                            <div class="form__elem">
+                                <label for="in">Въезд</label>
+                                <input class="data" type="date" name="in" id="in" required>
+                            </div>
+
+                            <div class="form__elem">
+                                <label for="out">Выезд</label>
+                                <input class="data" type="date" name="out" id="out" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form__second-column">
+
+                        <div class="form__elem">
+                            <label for="visa">Тип визы</label>
+                            <select class=" form__visa" name="visa" id="visa">
+                            </select>
+                        </div>
+
+                        <div class="form__elem">
+                            <label for="try">Количество заездов</label>
+                            <select class=" form__try" name="try" id="try">
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="form__third-column">
+                        <div class="form__elem">
+                            <label for="timespent">Время обработки</label>
+                            <select class=" form__timespent" name="timespent" id="timespent">
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="section__cost-and-button">
+                <div class="cost">
+                    <h3 class="cost__title">Предварительная стоимость:
+                    </h3>
+                    <div class="cost-value__wrapper">
+                        <p class="cost__value"></p>
+                    </div>
+                </div>
+                <button class="section__button" type="submit">
+                    Продолжить >
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="wrapper ">
+            <div class="footer__wrapper ">
+                <div class="footer__item footer__item--company ">
+                    <h5 class="footer__item-title ">КОМПАНИЯ</h5>
+                    <ul class="footer__item-list ">
+                        <li><a href="# " class="footer__item-link ">О компании</a></li>
+                        <li><a href="# " class="footer__item-link ">Работай с нами</a></li>
+                        <li><a href="# " class="footer__item-link ">Пресса</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__item ">
+                    <h5 class="footer__item-title ">ДЕТАЛИ</h5>
+                    <ul class="footer__item-list ">
+                        <li><a href="# " class="footer__item-link ">Бронирование</a></li>
+                        <li><a href="# " class="footer__item-link ">Оплата</a></li>
+                        <li><a href="# " class="footer__item-link ">Условия</a></li>
+                        <li><a href="# " class="footer__item-link ">Политика</a></li>
+                        <li><a href="# " class="footer__item-link ">Карта сайта</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__item ">
+                    <h5 class="footer__item-title ">КОНТАКТЫ</h5>
+                    <ul class="footer__item-list ">
+                        <li><a href="# " class="footer__item-link footer__item-link--social footer__item-link--message ">Свяжись с
+                          нами</a></li>
+                        <li><a href="# " class="footer__item-link footer__item-link--social footer__item-link--facebook ">Facebook</a>
+                        </li>
+                        <li><a href="# " class="footer__item-link footer__item-link--social footer__item-link--instagram ">Instagram</a></li>
+                        <li><a href="# " class="footer__item-link footer__item-link--social footer__item-link--youtube ">YouTube</a>
+                        </li>
+                        <li><a href="# " class="footer__item-link footer__item-link--social footer__item-link--email ">Почта</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copy ">
+                © 2021 Все права защищены
+            </div>
+        </div>
+    </footer>
+
+    <script src="./bd.json "></script>
+    <script src="./js/main.js "></script>
+    <script src="./js/bd.js "></script>
+</body>
+
+
+</html>
